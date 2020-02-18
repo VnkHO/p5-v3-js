@@ -116,4 +116,3 @@ function keyTyped() {
     initColors();
   }
 }
-j

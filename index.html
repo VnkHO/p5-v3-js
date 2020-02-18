@@ -13,6 +13,7 @@
             margin: 0;
             background-color: #333333;
             height: 100vh;
+            position: relative;
         }
 
         #defaultCanvas0 {
@@ -22,8 +23,32 @@
             display: block !important;
             border: 5px solid #fff;
         }
+
+        div {
+            position: fixed;
+            left: 50%;
+            bottom: 100px;
+            transform: translateX(-50%);
+        }
+
+        div>a {
+            font-size: 2em;
+            color: white;
+            text-decoration: none;
+            margin: 0 2em;
+        }
+
+        div>a:hover {
+            color: palevioletred;
+        }
     </style>
 </head>
+
+
+<div>
+    <a href="https://p5-grid-2.netlify.com/">p5 grid 2</a>
+    <a href="https://p5-grid-3.netlify.com/">p5 grid 3</a>
+</div>
 
 <body>
 </body>
