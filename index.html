@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>Design génératif</title>
-    <script src="assets/js/p5.min.js"></script>
-    <script src="assets/js/dat.gui.min.js"></script>
-    <script src="sketch.js"></script>
+    <script src="./assets/js/p5.min.js" defer></script>
+    <script src="./assets/js/dat.gui.min.js" defer></script>
+    <script src="sketch.js" defer></script>
     <style>
         body {
             padding: 0;
@@ -24,28 +24,28 @@
             border: 5px solid #fff;
         }
 
-        div {
+        .link {
             position: fixed;
             left: 50%;
             bottom: 100px;
             transform: translateX(-50%);
         }
 
-        div>a {
+        .link>a {
             font-size: 2em;
             color: white;
             text-decoration: none;
             margin: 0 2em;
         }
 
-        div>a:hover {
+        .link>a:hover {
             color: palevioletred;
         }
     </style>
 </head>
 
 
-<div>
+<div class="link">
     <a href="https://p5-grid-2.netlify.com/">p5 grid 2</a>
     <a href="https://p5-grid-3.netlify.com/">p5 grid 3</a>
 </div>
